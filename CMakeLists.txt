@@ -3,4 +3,6 @@ project(DesignPattern)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(DesignPattern main.cpp)
+include_directories(simpleFactory)
+
+add_executable(DesignPattern main.cpp simpleFactory/Operation.cpp simpleFactory/Operation.h simpleFactory/OperationFactory.cpp simpleFactory/OperationFactory.h simpleFactory/simpleFactoryTest.h)
