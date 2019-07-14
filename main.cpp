@@ -3,5 +3,5 @@
 using namespace std;
 
 int main() {
-    simpleFacotry::test();
+    simpleFactory::test();
 }

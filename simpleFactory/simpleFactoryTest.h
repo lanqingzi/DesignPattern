@@ -5,7 +5,7 @@
 #include "OperationFactory.h"
 using namespace std;
 
-namespace simpleFacotry{
+namespace simpleFactory{
     void test() {
         Operation* oper;
         oper = OperationFactory::createOperation('+');
