@@ -8,6 +8,7 @@
 #include "OperationFactory.h"
 class OperationContext {
 public:
+    OperationContext() = default;
     OperationContext(int, int, char);
     double getResult();
 
