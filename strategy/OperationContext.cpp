@@ -4,7 +4,7 @@
 
 #include "OperationContext.h"
 OperationContext::OperationContext(int NumA, int NumB, char op) {
-    oper = OperationFactory::createOperation(op);
+    oper = OperationSimpleFactory::createOperation(op);
     oper->setNumberA(NumA);
     oper->setNumberB(NumB);
 }
