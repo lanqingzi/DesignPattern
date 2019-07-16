@@ -6,4 +6,12 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(simpleFactory)
 include_directories(strategy)
 include_directories(decorator)
-add_executable(DesignPattern main.cpp simpleFactory/Operation.cpp simpleFactory/Operation.h simpleFactory/OperationFactory.cpp simpleFactory/OperationFactory.h simpleFactory/simpleFactoryTest.h strategy/OperationContext.cpp strategy/OperationContext.h strategy/strategyTest.h decorator/OperationContextDecorator.cpp decorator/OperationContextDecorator.h decorator/decoratorTest.h)
+
+add_subdirectory(simpleFactory)
+add_subdirectory(strategy)
+add_subdirectory(decorator)
+
+add_executable(DesignPattern main.cpp)
+target_link_libraries(DesignPattern s_simpleFactory)
+target_link_libraries(DesignPattern s_strategy)
+target_link_libraries(DesignPattern s_decorator)
