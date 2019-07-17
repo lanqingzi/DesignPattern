@@ -9,6 +9,7 @@
 #include <iostream>
 namespace decorator {
     void test() {
+        std::cout << "Decorator Test" << std::endl;
         OperationContextDecorator* oper = new OperationContextDecorator(10, 5, '+');
         std::cout << oper->getResult() << std::endl;
     }

@@ -10,6 +10,7 @@ using namespace std;
 
 namespace strategy{
     void test() {
+        std::cout << "Strategy Test" << std::endl;
         OperationContext* opCon = new OperationContext(10, 5, '+');
         cout << opCon->getResult() << endl;
     }
