@@ -3,6 +3,8 @@
 #include "strategyTest.h"
 #include "decoratorTest.h"
 #include "factoryTest.h"
+#include "operationPrototypeTest.h"
+
 using namespace std;
 
 int main() {
@@ -10,4 +12,5 @@ int main() {
     strategy::test();
     decorator::test();
     factory::test();
+    prototype::test();
 }
