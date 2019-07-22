@@ -1,22 +1,22 @@
 //
-// Created by Qingzi Lan on 7/20/19.
+// Created by Qingzi Lan on 7/21/19.
 //
 
-#include "IOperation.h"
+#include "OperationPrototype.h"
 
-IOperation* OperationAddPrototype::clone() {
+OperationPrototype* OperationAddPrototype::clone() {
     return new OperationAddPrototype(*this);
 }
 
-IOperation* OperationSubtractPrototype::clone() {
+OperationPrototype* OperationSubtractPrototype::clone() {
     return new OperationSubtractPrototype(*this);
 }
 
-IOperation* OperationMultiPrototype::clone() {
+OperationPrototype* OperationMultiPrototype::clone() {
     return new OperationMultiPrototype(*this);
 }
 
-IOperation* OperationDividePrototype::clone() {
+OperationPrototype* OperationDividePrototype::clone() {
     return new OperationDividePrototype(*this);
 }
 

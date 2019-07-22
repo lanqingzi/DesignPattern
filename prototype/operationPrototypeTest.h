@@ -5,7 +5,7 @@
 #ifndef DESIGNPATTERN_OPERATIONPROTOTYPETEST_H
 #define DESIGNPATTERN_OPERATIONPROTOTYPETEST_H
 
-#include "IOperation.h"
+#include "OperationPrototype.h"
 #include <iostream>
 
 namespace prototype {
@@ -16,7 +16,7 @@ namespace prototype {
         OpAdd->setNumberB(10);
         std::cout << OpAdd->getResult() << std::endl;
 
-        auto* OpAddCopy1 = (OperationPrototype*)OpAdd->clone();
+        auto* OpAddCopy1 = OpAdd->clone();
         OpAddCopy1->setNumberA(6);
         std::cout << OpAddCopy1->getResult() << std::endl;
     }
