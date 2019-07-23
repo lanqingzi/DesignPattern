@@ -4,6 +4,7 @@
 #include "decoratorTest.h"
 #include "factoryTest.h"
 #include "operationPrototypeTest.h"
+#include "facadeTest.h"
 
 using namespace std;
 
@@ -13,4 +14,5 @@ int main() {
     decorator::test();
     factory::test();
     prototype::test();
+    facade::test();
 }
