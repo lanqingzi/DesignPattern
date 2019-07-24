@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
-project(DesignPattern)
+project(DesignPattern CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -11,6 +11,7 @@ include_directories(prototype)
 include_directories(facade)
 include_directories(builder)
 include_directories(templateMethod)
+include_directories(functionPointer)
 
 add_subdirectory(simpleFactory)
 add_subdirectory(strategy)
@@ -20,6 +21,7 @@ add_subdirectory(prototype)
 add_subdirectory(facade)
 add_subdirectory(builder)
 add_subdirectory(templateMethod)
+add_subdirectory(functionPointer)
 
 add_executable(DesignPattern main.cpp)
 target_link_libraries(DesignPattern s_simpleFactory)
@@ -30,3 +32,4 @@ target_link_libraries(DesignPattern s_prototype)
 target_link_libraries(DesignPattern s_facade)
 target_link_libraries(DesignPattern s_builder)
 target_link_libraries(DesignPattern s_templateMethod)
+target_link_libraries(DesignPattern s_functionPointer)

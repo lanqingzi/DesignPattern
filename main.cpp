@@ -7,6 +7,7 @@
 #include "facadeTest.h"
 #include "builderTest.h"
 #include "templateMethodTest.h"
+#include "functionPointerTest.h"
 
 using namespace std;
 
@@ -19,4 +20,5 @@ int main() {
     facade::test();
     builder::test();
     templateMethod::test();
+    functionPointer::test();
 }
