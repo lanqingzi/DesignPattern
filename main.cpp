@@ -5,6 +5,8 @@
 #include "factoryTest.h"
 #include "operationPrototypeTest.h"
 #include "facadeTest.h"
+#include "builderTest.h"
+#include "templateMethodTest.h"
 
 using namespace std;
 
@@ -15,4 +17,6 @@ int main() {
     factory::test();
     prototype::test();
     facade::test();
+    builder::test();
+    templateMethod::test();
 }
