@@ -9,18 +9,20 @@
 #include "templateMethodTest.h"
 #include "functionPointerTest.h"
 #include "publishSubscribeTest.h"
+#include "abstractFactoryTest.h"
 
 using namespace std;
 
 int main() {
-    simpleFactory::test();
-    strategy::test();
-    decorator::test();
-    factory::test();
-    prototype::test();
-    facade::test();
-    builder::test();
-    templateMethod::test();
-    functionPointer::test();
-    publishSubscribe::test();
+//    simpleFactory::test();
+//    strategy::test();
+//    decorator::test();
+//    factory::test();
+//    prototype::test();
+//    facade::test();
+//    builder::test();
+//    templateMethod::test();
+//    functionPointer::test();
+//    publishSubscribe::test();
+    abstractFactory::test();
 }
