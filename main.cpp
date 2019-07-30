@@ -8,6 +8,7 @@
 #include "builderTest.h"
 #include "templateMethodTest.h"
 #include "functionPointerTest.h"
+#include "publishSubscribeTest.h"
 
 using namespace std;
 
@@ -21,4 +22,5 @@ int main() {
     builder::test();
     templateMethod::test();
     functionPointer::test();
+    publishSubscribe::test();
 }

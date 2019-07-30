@@ -6,6 +6,8 @@
 #define DESIGNPATTERN_FUNCTIONPOINTERTEST_H
 
 #include <iostream>
+#include <vector>
+using namespace std;
 
 namespace functionPointer {
     void func1() {
@@ -28,10 +30,19 @@ namespace functionPointer {
         foo1();
 
         // Function pointer to a class method
-        foo test;
+        auto* test = new foo();
         void (foo::*foo2)();
         foo2 = &foo::func2;
-        (test.*foo2)();
+        (test->*foo2)();
+
+        typedef void (foo::*fn)();
+
+        vector<fn> _functions;
+        _functions.push_back(&foo::func2);
+
+        for (auto func : _functions) {
+            (test->*func)();
+        }
     }
 }
 #endif //DESIGNPATTERN_FUNCTIONPOINTERTEST_H
