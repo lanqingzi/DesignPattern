@@ -1,6 +1,6 @@
 #include <iostream>
 #include "abstractFactoryTest.cpp"
-
+#include "stateTest.cpp"
 using namespace std;
 
 int main() {
@@ -14,5 +14,6 @@ int main() {
 //    templateMethod::test();
 //    functionPointer::test();
 //    publishSubscribe::test();
-    abstractFactory::test();
+//    abstractFactory::test();
+    state::test();
 }

@@ -3,6 +3,7 @@ project(DesignPattern CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 
+include_directories(testSRC)
 include_directories(simpleFactory)
 include_directories(strategy)
 include_directories(decorator)
@@ -14,7 +15,8 @@ include_directories(templateMethod)
 include_directories(functionPointer)
 include_directories(publishSubscribe)
 include_directories(abstractFactory)
-include_directories(testSRC)
+include_directories(state)
+
 
 add_subdirectory(simpleFactory)
 add_subdirectory(strategy)
@@ -27,6 +29,7 @@ add_subdirectory(templateMethod)
 add_subdirectory(functionPointer)
 add_subdirectory(publishSubscribe)
 add_subdirectory(abstractFactory)
+add_subdirectory(state)
 
 add_executable(DesignPattern main.cpp)
 
@@ -41,3 +44,4 @@ target_link_libraries(DesignPattern s_templateMethod)
 target_link_libraries(DesignPattern s_functionPointer)
 target_link_libraries(DesignPattern s_publishSubscribe)
 target_link_libraries(DesignPattern s_abstractFactory)
+target_link_libraries(DesignPattern s_state)
