@@ -1,15 +1,5 @@
 #include <iostream>
-#include "simpleFactoryTest.h"
-#include "strategyTest.h"
-#include "decoratorTest.h"
-#include "factoryTest.h"
-#include "operationPrototypeTest.h"
-#include "facadeTest.h"
-#include "builderTest.h"
-#include "templateMethodTest.h"
-#include "functionPointerTest.h"
-#include "publishSubscribeTest.h"
-#include "abstractFactoryTest.h"
+#include "abstractFactoryTest.cpp"
 
 using namespace std;
 

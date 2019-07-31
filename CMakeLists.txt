@@ -14,6 +14,7 @@ include_directories(templateMethod)
 include_directories(functionPointer)
 include_directories(publishSubscribe)
 include_directories(abstractFactory)
+include_directories(testSRC)
 
 add_subdirectory(simpleFactory)
 add_subdirectory(strategy)

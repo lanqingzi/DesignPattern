@@ -1,5 +1,4 @@
 set(src Facade.h
-        Facade.cpp
-        facadeTest.h)
+        Facade.cpp)
 
 add_library(s_facade STATIC ${src})

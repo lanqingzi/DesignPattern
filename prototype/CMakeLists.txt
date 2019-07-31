@@ -1,5 +1,4 @@
 set(src OperationPrototype.h
-        OperationPrototype.cpp
-        operationPrototypeTest.h)
+        OperationPrototype.cpp)
 
 add_library(s_prototype STATIC ${src})
