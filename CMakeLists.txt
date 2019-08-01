@@ -16,6 +16,7 @@ include_directories(functionPointer)
 include_directories(publishSubscribe)
 include_directories(abstractFactory)
 include_directories(state)
+include_directories(adapter)
 
 
 add_subdirectory(simpleFactory)
@@ -30,6 +31,7 @@ add_subdirectory(functionPointer)
 add_subdirectory(publishSubscribe)
 add_subdirectory(abstractFactory)
 add_subdirectory(state)
+add_subdirectory(adapter)
 
 add_executable(DesignPattern main.cpp)
 
@@ -45,3 +47,4 @@ target_link_libraries(DesignPattern s_functionPointer)
 target_link_libraries(DesignPattern s_publishSubscribe)
 target_link_libraries(DesignPattern s_abstractFactory)
 target_link_libraries(DesignPattern s_state)
+target_link_libraries(DesignPattern s_adapter)

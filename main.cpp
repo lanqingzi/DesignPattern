@@ -1,6 +1,5 @@
 #include <iostream>
-#include "abstractFactoryTest.cpp"
-#include "stateTest.cpp"
+#include "adapterTest.cpp"
 using namespace std;
 
 int main() {
@@ -15,5 +14,5 @@ int main() {
 //    functionPointer::test();
 //    publishSubscribe::test();
 //    abstractFactory::test();
-    state::test();
+    adapter::test();
 }
