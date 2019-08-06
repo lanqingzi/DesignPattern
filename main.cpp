@@ -1,5 +1,5 @@
 #include <iostream>
-#include "mementoTest.cpp"
+#include "compositeTest.cpp"
 using namespace std;
 
 int main() {
@@ -15,5 +15,6 @@ int main() {
 //    publishSubscribe::test();
 //    abstractFactory::test();
 //    adapter::test();
-    memento::test();
+//    memento::test();
+    composite::test();
 }

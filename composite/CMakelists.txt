@@ -1,0 +1,4 @@
+set(src Composite.h
+        Composite.cpp)
+
+add_library(s_composite STATIC ${src})

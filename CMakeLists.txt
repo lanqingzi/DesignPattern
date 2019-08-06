@@ -18,6 +18,7 @@ include_directories(abstractFactory)
 include_directories(state)
 include_directories(adapter)
 include_directories(memento)
+include_directories(composite)
 
 
 add_subdirectory(simpleFactory)
@@ -34,6 +35,7 @@ add_subdirectory(abstractFactory)
 add_subdirectory(state)
 add_subdirectory(adapter)
 add_subdirectory(memento)
+add_subdirectory(composite)
 
 add_executable(DesignPattern main.cpp)
 
@@ -51,3 +53,4 @@ target_link_libraries(DesignPattern s_abstractFactory)
 target_link_libraries(DesignPattern s_state)
 target_link_libraries(DesignPattern s_adapter)
 target_link_libraries(DesignPattern s_memento)
+target_link_libraries(DesignPattern s_composite)
