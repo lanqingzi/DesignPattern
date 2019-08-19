@@ -1,5 +1,5 @@
 #include <iostream>
-#include "commandTest.cpp"
+#include "chainOfResponsibilityTest.cpp"
 using namespace std;
 
 int main() {
@@ -18,5 +18,6 @@ int main() {
 //    memento::test();
 //    composite::test();
 //    bridge::test();
-    command::test();
+//    command::test();
+    chainOfResponsibility::test();
 }

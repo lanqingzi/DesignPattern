@@ -21,6 +21,7 @@ include_directories(memento)
 include_directories(composite)
 include_directories(bridge)
 include_directories(command)
+include_directories(chainOfResponsibility)
 
 
 add_subdirectory(simpleFactory)
@@ -40,6 +41,7 @@ add_subdirectory(memento)
 add_subdirectory(composite)
 add_subdirectory(bridge)
 add_subdirectory(command)
+add_subdirectory(chainOfResponsibility)
 
 add_executable(DesignPattern main.cpp)
 
@@ -60,3 +62,4 @@ target_link_libraries(DesignPattern s_memento)
 target_link_libraries(DesignPattern s_composite)
 target_link_libraries(DesignPattern s_bridge)
 target_link_libraries(DesignPattern s_command)
+target_link_libraries(DesignPattern s_chainOfResponsibility)
