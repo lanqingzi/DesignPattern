@@ -1,0 +1,4 @@
+set(src Command.h
+        Command.cpp)
+
+add_library(s_command STATIC ${src})

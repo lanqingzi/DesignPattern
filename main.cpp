@@ -1,5 +1,5 @@
 #include <iostream>
-#include "bridgeTest.cpp"
+#include "commandTest.cpp"
 using namespace std;
 
 int main() {
@@ -17,5 +17,6 @@ int main() {
 //    adapter::test();
 //    memento::test();
 //    composite::test();
-    bridge::test();
+//    bridge::test();
+    command::test();
 }
