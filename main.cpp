@@ -1,5 +1,5 @@
 #include <iostream>
-#include "compositeTest.cpp"
+#include "bridgeTest.cpp"
 using namespace std;
 
 int main() {
@@ -16,5 +16,6 @@ int main() {
 //    abstractFactory::test();
 //    adapter::test();
 //    memento::test();
-    composite::test();
+//    composite::test();
+    bridge::test();
 }

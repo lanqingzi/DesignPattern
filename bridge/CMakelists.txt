@@ -1,0 +1,4 @@
+set(src Bridge.h
+        Bridge.cpp)
+
+add_library(s_bridge STATIC ${src})
