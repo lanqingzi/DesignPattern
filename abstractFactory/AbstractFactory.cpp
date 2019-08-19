@@ -28,6 +28,7 @@ void SqlServerUser::insert() {
 
 User* SqlServerUser::get() {
     cout << "Get a user from Sql server" << endl;
+    return nullptr;
 }
 
 void AccessServerUser::insert() {
@@ -36,6 +37,7 @@ void AccessServerUser::insert() {
 
 User* AccessServerUser::get() {
     cout << "Get a user from Access server" << endl;
+    return nullptr;
 }
 
 void SqlServerDepartment::insert() {
@@ -44,6 +46,7 @@ void SqlServerDepartment::insert() {
 
 Department* SqlServerDepartment::get() {
     cout << "Get a department from Sql server" << endl;
+    return nullptr;
 }
 
 void AccessDepartment::insert() {
@@ -52,4 +55,5 @@ void AccessDepartment::insert() {
 
 Department* AccessDepartment::get() {
     cout << "Get a department from Access server" << endl;
+    return nullptr;
 }

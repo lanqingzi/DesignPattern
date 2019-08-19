@@ -1,5 +1,5 @@
 #include <iostream>
-#include "chainOfResponsibilityTest.cpp"
+#include "mediatorTest.cpp"
 using namespace std;
 
 int main() {
@@ -19,5 +19,6 @@ int main() {
 //    composite::test();
 //    bridge::test();
 //    command::test();
-    chainOfResponsibility::test();
+//    chainOfResponsibility::test();
+    mediator::test();
 }

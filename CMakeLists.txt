@@ -22,6 +22,7 @@ include_directories(composite)
 include_directories(bridge)
 include_directories(command)
 include_directories(chainOfResponsibility)
+include_directories(mediator)
 
 
 add_subdirectory(simpleFactory)
@@ -42,6 +43,7 @@ add_subdirectory(composite)
 add_subdirectory(bridge)
 add_subdirectory(command)
 add_subdirectory(chainOfResponsibility)
+add_subdirectory(mediator)
 
 add_executable(DesignPattern main.cpp)
 
@@ -63,3 +65,4 @@ target_link_libraries(DesignPattern s_composite)
 target_link_libraries(DesignPattern s_bridge)
 target_link_libraries(DesignPattern s_command)
 target_link_libraries(DesignPattern s_chainOfResponsibility)
+target_link_libraries(DesignPattern s_mediator)
