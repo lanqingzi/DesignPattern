@@ -1,5 +1,5 @@
 #include <iostream>
-#include "mediatorTest.cpp"
+#include "flyweightTest.cpp"
 using namespace std;
 
 int main() {
@@ -20,5 +20,6 @@ int main() {
 //    bridge::test();
 //    command::test();
 //    chainOfResponsibility::test();
-    mediator::test();
+//    mediator::test();
+    flyweight::test();
 }
